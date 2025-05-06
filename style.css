@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --primary-color: hsl(47, 88%, 63%);
+    --secondary-color: hsl(0, 0%, 100%);
+    --text-primary-color:  hsl(0, 0%, 42%);
+    --text-secondary-color:  hsl(0, 0%, 7%);
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Figtree', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: 100vh;
+    background-color: var(--primary-color);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    max-width: 380px;
+    padding: 20px;
+    background-color: var(--secondary-color);
+    border: 1px solid var(--text-secondary-color);
+    border-radius: 20px;  
+    box-shadow: 9px 5px 0px 1px #000000;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    max-width: 380px;
+    padding: 5px;
+    background-color: var(--secondary-color);
+    border-radius: 20px; 
+}
+
+.card img{
+    border-radius: 10px;
+}
+
+.card__title{
+    font-size: 1rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 800;
+    color: var(--text-secondary-color);
+    background-color: var(--primary-color);
+    padding: 5px;
+    width: 100%;
+    max-width: 80px;
+    border-radius: 5px;
+}
+
+.card__date{
+    font-size: 1rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.card__heading{
+    font-weight: 800;
+    color: var(--text-secondary-color);
+    font-size: 1.2rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.card_text{
+    font-size: 1rem;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: var(--text-primary-color);
+}
+
+.card__author{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.card__author-name{
+    font-size: 1rem;
+    margin-left: 18px;
+    font-weight: 800;
+    color: var(--text-secondary-color);
+}
+
+@media (max-width: 375px) {
+    body{
+        padding: 0 10px;
+    }
+    .container{
+        width: 100%;
+        max-width: 90%;
+        padding: 10px;
+        transition: transform 0.3s ease;
+    }
+    .card{
+        max-width: 336px;
+        overflow: hidden;
+        padding: 5px;
+    }
+
+    .container:hover {
+        transform: translateY(-5px);
+        cursor: pointer;
+      }
+}
+    

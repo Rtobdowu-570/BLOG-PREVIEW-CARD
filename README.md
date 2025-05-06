@@ -40,8 +40,8 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: (https://cheese-bur.netlify.app)
+- Live Site URL: (https://cheese-bur.netlify.app)
 
 ## My process
 
@@ -74,22 +74,32 @@ const proudOfThisFunc = () => {
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+In my journey to becoming a Full-stack developer, I plan to focus on:
+
+JavaScript Frameworks: Dive deeper into frameworks like React, Angular, or Vue.js to enhance my frontend development skills.
+Backend Development: Learn server-side technologies such as Node.js, Express, or Django to build robust backend systems.
+Databases: Understand both SQL (e.g., PostgreSQL, MySQL) and NoSQL (e.g., MongoDB) databases to manage and store data efficiently.
+API Development: Gain experience in building and consuming RESTful and GraphQL APIs to enable seamless frontend-backend communication.
+DevOps Practices: Explore tools like Docker, Kubernetes, and CI/CD pipelines to streamline development processes and deployments.
+Cloud Services: Familiarize myself with cloud platforms such as AWS, Azure, or Google Cloud for scalable application hosting and services.
+Testing: Implement unit, integration, and end-to-end testing to ensure code quality and reliability.
+Security: Learn best practices for securing applications at both the frontend and backend levels.
+
 
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+(https://www.freecodecamp.org) - A comprehensive platform with tutorials and projects to learn web development.
+(https://developer.mozilla.org) - An excellent resource for in-depth documentation on web technologies.
+(https://www.codecademy.com) - Interactive courses and exercises to practice coding skills.
+
 
 
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
+Frontend Mentor - (https://www.frontendmentor.io/profile/Rtobdowu-570)
+Twitter - (https://x.com/AndrewPete38959)
 
 
 
